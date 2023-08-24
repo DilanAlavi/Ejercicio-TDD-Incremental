@@ -1,11 +1,23 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Totalizador de Ventas</title>
+  </head>
   <body>
     <h1>Totalizador de Ventas</h1>
     <form id="sumar-form">
-      <label for="primer-numero">Ingresa la cantidad de items</label>
-      <input type="number" id="primer-numero" />
-      <label for="primer-numero">Ingresa el precio de items</label>
-      <input type="number" id="segundo-numero" />
+    
+    
+      <label for="cantidad">Ingresa la cantidad de items:</label>
+      <input type="number" id="cantidad" />
+      <br />
+      <label for="precio">Ingresa el precio de items:</label>
+      <input type="number" id="precio" />
+      <br />
+      <br />
+      <label for="estado">Ingresa el codigo del estado:</label>
+      <input type="texto" id="estado" />
+      <br />
       <input type="submit" value="Calcular" id="sumar-button" />
     </form>
     <div id="resultado-div"></div>

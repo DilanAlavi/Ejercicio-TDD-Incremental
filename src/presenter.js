@@ -12,5 +12,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + calu.calculadora(secondNumber) + "</p>";
+  div.innerHTML = "<p>" + "El precio Neto: "+  calu.calculadora(firstNumber, secondNumber) + "</p>";
 });

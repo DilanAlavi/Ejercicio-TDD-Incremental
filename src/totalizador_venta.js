@@ -1,8 +1,8 @@
 class totalizadorVentas
 {
-    calculadora(cantidad)
+    calculadora(precio, cantidad)
     {
-        return cantidad;
+        return precio*cantidad;
     }
 }
 export default totalizadorVentas;

@@ -1,5 +1,8 @@
-function describer(n)
+class totalizadorVentas
 {
-    return n;
+    calculadora(cantidad)
+    {
+        return cantidad;
+    }
 }
-export default describer;
+export default totalizadorVentas;
